@@ -5,3 +5,6 @@ serverJS/.env
 offload
 frontendReact/.env.local
 frontend/.env
+serverJS/node_modules
+frontendReact/ai-hoc-tap/node_modules
+pycache
