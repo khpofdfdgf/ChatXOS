@@ -1,24 +1,65 @@
-🔥 Giới thiệu ChatXOS
+# ChatXOS 🚀
 
-ChatXOS là một hệ thống chat đa tầng được thiết kế như một “mini–platform”, tập trung vào tốc độ, khả năng mở rộng và kiểm soát toàn bộ luồng dữ liệu.
+© 2026 **ChatBotXOS Team**. All rights reserved.
 
-Dự án chia thành 3 lớp chính:
+⚠️ **Private Project**  
+Dự án này là nội bộ. Không được redistribute, public fork, hay sử dụng cho mục đích thương mại nếu chưa có sự cho phép.
 
-FastAPI (Python): xử lý logic lõi, AI / API / xử lý dữ liệu
+---
 
-Node.js Server: trung gian realtime, routing, session, socket
+## 🔥 Giới thiệu
 
-React Frontend: giao diện người dùng, UI/UX realtime
+**ChatXOS** là một hệ thống chat đa tầng (multi-layer chat system) được xây dựng theo hướng **platform-oriented**, tập trung vào khả năng mở rộng, kiểm soát luồng dữ liệu và thử nghiệm kiến trúc backend hiện đại.
 
-ChatXOS không phải app chat “cho vui”, mà được xây để:
+Đây không phải một app chat “cho vui”, mà là một project dùng để:
+- nghiên cứu kiến trúc hệ thống thực tế
+- thử nghiệm giao tiếp giữa nhiều backend
+- xây nền cho các tính năng realtime & AI chat trong tương lai
+- BỎ hạn chế ngu loz của Zalo  cho phép chat + tích hợp AI vào
 
-thử nghiệm kiến trúc backend thực tế
+---
 
-scale được nhiều user
+## 🧠 Kiến trúc tổng quan
 
-dễ debug, dễ thay thế module
+ChatXOS được chia thành 3 lớp chính:
 
-không phụ thuộc 1 tech stack duy nhất
+- **FastAPI (Python)**  
+  Xử lý logic lõi, AI, xử lý dữ liệu và các service nền.
 
-Đây là private project, phát triển phục vụ nghiên cứu, học tập và thử nghiệm hệ thống.
-Mọi quyền phân phối hoặc thương mại hóa đều cần sự cho phép từ ChatBotXOS Team.
+- **Node.js Server**  
+  Đóng vai trò server trung gian: auth,database,realtime, session, routing, socket, bridge giữa frontend và backend.
+
+- **React Frontend**  
+  Giao diện người dùng, realtime UI/UX, tương tác trực tiếp với server.
+
+Thiết kế theo hướng module hóa → dễ thay thế, dễ scale, dễ debug.
+
+---
+
+## 🛠️ Tech Stack
+
+- Backend: **Python / FastAPI/NodeJS**
+- Server: **Node.js**
+- Frontend: **React**
+- Package Manager: `pip`, `npm`
+- Environment: Virtual Environment (venv)
+
+---
+
+## 🚧 Trạng thái dự án
+
+- Project đang trong giai đoạn **active development**
+- Có thể còn bug, thiếu feature
+- Ưu tiên kiến trúc & logic hơn polish UI
+
+---
+
+## 🔒 License & Usage
+
+This project is proprietary and confidential.  
+Unauthorized copying, distribution, or commercial use is strictly prohibited.
+
+---
+
+🔥 ChatXOS — build để hiểu hệ thống, không build cho màu mè.  
+Code ngu thì sửa, đừng hoảng 😎
