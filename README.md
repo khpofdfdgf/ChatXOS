@@ -64,8 +64,16 @@ ALLOWED_MODELS = {
 
 ## 🔒 License & Usage
 
-This project is proprietary and confidential.  
-Unauthorized copying, distribution, or commercial use is strictly prohibited.
+This project is proprietary and confidential.
+All source code in this repository is owned by the ChatBotXOS Team.
+
+Unauthorized copying, redistribution, public forking, or commercial use of this project,
+in whole or in part, is strictly prohibited without explicit permission.
+
+This project may integrate third-party open-source libraries and AI models
+(e.g. FastAPI, React, Gemma, LLaMA, GPT-OSS), each governed by their own respective licenses.
+Use of those components does not grant any rights to this project’s source code.
+
 
 ---
 
