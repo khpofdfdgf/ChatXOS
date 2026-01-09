@@ -43,6 +43,14 @@ Thiết kế theo hướng module hóa → dễ thay thế, dễ scale, dễ deb
 - Frontend: **React**
 - Package Manager: `pip`, `npm`
 - Environment: Virtual Environment (venv)
+- Model AI:# ================= CONFIG =================
+ALLOWED_MODELS = {
+    "gemma3:1b": {"max_tokens": 1000, "max_context": 20},
+    "llama3:8b": {"max_tokens": 2000, "max_context": 40},
+    "gpt-oss:20b": {"max_tokens": 3000, "max_context": 60},
+    "gpt-oss:120b-cloud": {"max_tokens": 4000, "max_context": 80},
+}
+
 
 ---
 
