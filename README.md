@@ -1,15 +1,24 @@
-# ChatXOS
+🔥 Giới thiệu ChatXOS
 
-© 2026 ChatBotXOS Team. All rights reserved.
+ChatXOS là một hệ thống chat đa tầng được thiết kế như một “mini–platform”, tập trung vào tốc độ, khả năng mở rộng và kiểm soát toàn bộ luồng dữ liệu.
 
-This project is private.  
-No redistribution or commercial use is allowed without permission.
+Dự án chia thành 3 lớp chính:
 
-create venv
-activate
-pip install fastapi
-open serverJS
-npm install
-open frontendReact
-npm run build
-npm run dev
+FastAPI (Python): xử lý logic lõi, AI / API / xử lý dữ liệu
+
+Node.js Server: trung gian realtime, routing, session, socket
+
+React Frontend: giao diện người dùng, UI/UX realtime
+
+ChatXOS không phải app chat “cho vui”, mà được xây để:
+
+thử nghiệm kiến trúc backend thực tế
+
+scale được nhiều user
+
+dễ debug, dễ thay thế module
+
+không phụ thuộc 1 tech stack duy nhất
+
+Đây là private project, phát triển phục vụ nghiên cứu, học tập và thử nghiệm hệ thống.
+Mọi quyền phân phối hoặc thương mại hóa đều cần sự cho phép từ ChatBotXOS Team.
